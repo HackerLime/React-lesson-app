@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background-color: grey;
+}
+.container{
+	max-width: 600px;
+	margin: 0px auto;
+	padding: 0 15px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 15px 0;
+}
+h1{
+	text-align: center;
+	color: #fff;
+	margin: 0 0 15px 0;
+}
+.App{
+	padding: 15px 0 0 0;
+}
+.post{
+	border: 3px solid rgb(0, 128, 58);
+	padding: 15px;
+	background-color: aquamarine;
+	margin: 0 0 15px 0;
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+}
+hr{
+	margin: 15px 0;
+}
+.filter{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.filter input{
+	margin: 0;
+}
+.post__btns{
+	display: flex;
+	align-items: center;
+}
